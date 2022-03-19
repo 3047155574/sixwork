@@ -25,10 +25,10 @@
   justify-content: space-around;
 }
 .box-lv .list .item-a img {
-  width: 108px;
+  width: 2.16rem;
 }
 .box-lv .list .item img {
-  width: 108px;
+  width: 2.16rem;
 }
 .box-lv .list .item .ie1 img {
     margin-top: 0.16rem;
@@ -45,17 +45,17 @@
 
 .box-lv .list .item-a p{
     position: absolute;
-    top: 12px;
-    left: 40px;
+    top: 0.24rem;
+    left: 0.8rem;
 }
 .box-lv .list .item .ie p{
     position: absolute;
-    top: 10px;
-    left: 42px;
+    top: 0.2rem;
+    left: 0.84rem;
 }
 .box-lv .list .item .ie1 p{
     position: absolute;
-    top: 18px;
-    left: 42px;
+    top: 0.36rem;
+    left: 0.84rem;
 }
 
