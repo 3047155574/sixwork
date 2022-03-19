@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,28 +10,112 @@
     <link rel="stylesheet" href="../css/swiper.css">
     <script src="../js/rem.js"></script>
     <script src="../js/swiper.js"></script>
+    <link rel="stylesheet" href="../css/首页.css">
 </head>
+
 <body>
-   <!-- 头部 -->
-   <div class="header">
-             <!-- Swiper -->
-    <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide"><img src="../img/kui-img/首页img/kui21_01.jpg" style="width: 100%;"></div>
-          <div class="swiper-slide"><img src="../img/kui-img/旅游首页img/05-旅游首页_01.jpg" style="width: 100%;"></div>
+    <!-- 头部 -->
+    <div class="header">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="../img/kui-img/首页img/kui21_01.jpg"></div>
+                <div class="swiper-slide"><img src="../img/kui-img/旅游首页img/05-旅游首页_01.jpg"></div>
+            </div>
+            <div class="swiper-pagination"></div>
         </div>
-        <div class="swiper-pagination"></div>
-      </div>
-   </div>
-   <script>
-    var swiper = new Swiper(".mySwiper", {
-      spaceBetween: 30,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      autoplay : true,
-    });
-  </script>
+    </div>
+    <!-- 旅游 机票 酒店 -->
+    <div class="box-lv">
+        <ul class="list">
+            <li class="item-a">
+                 <img src="../img/kui-img/首页img/kui21_03.jpg">
+                 <p>旅 游</p>
+            </li>
+            <li class="item">
+                <div class="ie">
+                    <img src="../img/kui-img/首页img/kui21_05.jpg">
+                    <p>出境游</p>
+                </div>
+                <div class="ie1">
+                    <img src="../img/kui-img/首页img/kui21_11.jpg">
+                    <p>周边游</p>
+                </div>
+            </li>
+            <li class="item">
+                <div class="ie">
+                    <img src="../img/kui-img/首页img/kui21_07.jpg">
+                    <p>国内游</p>
+                </div>
+                <div class="ie1">
+                    <img src="../img/kui-img/首页img/kui21_12.jpg">
+                    <p>当地游</p>
+                </div>
+            </li>
+        </ul>
+        <ul class="list">
+            <li class="item-a">
+                 <img src="../img/kui-img/首页img/kui21_03.jpg">
+                 <p>旅 游</p>
+            </li>
+            <li class="item">
+                <div class="ie">
+                    <img src="../img/kui-img/首页img/kui21_05.jpg">
+                    <p>出境游</p>
+                </div>
+                <div class="ie1">
+                    <img src="../img/kui-img/首页img/kui21_11.jpg">
+                    <p>周边游</p>
+                </div>
+            </li>
+            <li class="item">
+                <div class="ie">
+                    <img src="../img/kui-img/首页img/kui21_07.jpg">
+                    <p>国内游</p>
+                </div>
+                <div class="ie1">
+                    <img src="../img/kui-img/首页img/kui21_12.jpg">
+                    <p>当地游</p>
+                </div>
+            </li>
+        </ul>
+        <ul class="list">
+            <li class="item-a">
+                 <img src="../img/kui-img/首页img/kui21_03.jpg">
+                 <p>旅 游</p>
+            </li>
+            <li class="item">
+                <div class="ie">
+                    <img src="../img/kui-img/首页img/kui21_05.jpg">
+                    <p>出境游</p>
+                </div>
+                <div class="ie1">
+                    <img src="../img/kui-img/首页img/kui21_11.jpg">
+                    <p>周边游</p>
+                </div>
+            </li>
+            <li class="item">
+                <div class="ie">
+                    <img src="../img/kui-img/首页img/kui21_07.jpg">
+                    <p>国内游</p>
+                </div>
+                <div class="ie1">
+                    <img src="../img/kui-img/首页img/kui21_12.jpg">
+                    <p>当地游</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            //   autoplay : true,
+        });
+    </script>
 </body>
+
 </html>
