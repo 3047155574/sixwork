@@ -5,10 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>首页</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/swiper.css">
+    <script src="../js/rem.js"></script>
+    <script src="../js/swiper.js"></script>
 </head>
 <body>
-    <div class="box">
-        1111
-    </div>
+   <!-- 头部 -->
+   <div class="header">
+             <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="../img/kui-img/首页img/kui21_01.jpg" style="width: 100%;"></div>
+          <div class="swiper-slide"><img src="../img/kui-img/旅游首页img/05-旅游首页_01.jpg" style="width: 100%;"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+   </div>
+   <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      autoplay : true,
+    });
+  </script>
 </body>
 </html>
