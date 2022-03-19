@@ -1,5 +1,22 @@
 .header{
     width: 100%;
-    height: 88px;
+    height: 0.88rem;
+    background-color: #1448AE;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: whitesmoke;
+}
+.header_left{
+    font-size:0.30rem ;
+}
+.header_center{
+    font-size: 0.32rem;
+}
+.header_right{
+    font-size: 0.30rem;
+}
+.content{
+    height: 5.7rem;
     background-color: #1448AE;
 }
