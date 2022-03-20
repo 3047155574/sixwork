@@ -18,13 +18,107 @@ ul,li{
 	visibility: hidden;
 	clear: both;	
 }
-.header{
+.nav{
+    margin-top: 0.1rem;
     width: 100%;
-    height: 0.8rem;
-    background: darkcyan;
-    line-height: 0.8rem;
+    height: 0.5rem;
 }
-.hea-l{
+.nav-l{
+    display: flex;
+    line-height: 0.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-l1{
+    margin-left: 0.5rem;
+}
+.nav-r{
+    margin-right: 0.5rem;
+}
+.se{
+   color: #1448ae;
+}
+.icon-x{
+    color: #ccc;
+    font-size: 0.2rem !important;
+}
+.icon-denglu-xiaoyanjing{
+    font-size: 0.16rem !important;
+    color: #ccc;
+}
+.sec1{
+    margin-top: 1rem;
+    margin-left: 8%;
+    width: 84%;
+    height: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #cccccc;
+}
+.sec1 input{
+    border:none;
+    outline:medium;
+}
+.sec2{
+    margin-top: 0.2rem;
+    margin-left: 8%;
+    width: 84%;
+    height: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #cccccc;
+}
+.sec2 input{
+    border:none;
+    outline:medium;
     margin-left: 0.4rem;
-    color: #767676;
+}
+.sec3{
+    margin-top: 0.5rem;
+    margin-left: 8%;
+    width: 84%;
+    height: 0.8rem;
+    background: #f7c612;
+    text-align: center;
+    line-height: 1rem;
+    color: white;
+}
+.sec4{
+    margin-top: 0.2rem;
+    margin-left: 8%;
+    width: 84%;
+    display: flex;
+    color: #999999;
+    justify-content: space-between;
+    font-size: 0.24rem;
+}
+.sec5{
+    margin-top: 5rem;
+    margin-left: 8%;
+    width: 84%;
+    display: flex;
+    color: #999999;
+    justify-content: space-between;
+}
+.icon-weixin{
+    color: #5bbe61;
+    font-size: 0.7rem !important;
+}
+.icon-qq{
+    color: #56b1e8;
+    font-size: 0.7rem !important;
+}
+.icon-zhifubao{
+    color: #666666;
+    font-size: 0.7rem !important;
+}
+.icon-weibo{
+    color: #dd6e67;
+    font-size: 0.7rem !important;
+}
+.icon-baidu{
+    color: #5f76d4;
+    font-size: 0.7rem !important;
 }
