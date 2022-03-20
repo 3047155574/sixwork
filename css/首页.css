@@ -58,4 +58,17 @@
     top: 0.36rem;
     left: 0.84rem;
 }
-
+/* 特卖汇 */
+.tm-text{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.tm-text img{
+  padding-left:0.2rem ;
+  width: 0.8rem;
+}
+.tm-text span{
+  font-size: 20px;
+  color:#2256B2;
+}
