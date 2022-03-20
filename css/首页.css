@@ -60,6 +60,7 @@
 }
 /* 特卖汇 */
 .tm-text{
+  padding: 0.2rem 0 0.2rem 0;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -71,4 +72,39 @@
 .tm-text span{
   font-size: 20px;
   color:#2256B2;
+}
+.temai .list{
+  display: flex;
+  justify-content: space-evenly;
+}
+.temai .list .item{
+  border: #ccc 0.02rem solid;
+}
+.temai .list .item p{
+  text-align: center;
+  font-weight: 600;
+}
+.temai .list .item img{
+  width: 3.42rem;
+}
+.temai .list .item .item-q{
+  margin-top: 0.1rem;
+  display: flex;
+  justify-content: space-around;
+}
+.temai .list .item .item-q .item-q1{
+  font-size: 0.27rem;
+  color: #ccc;
+  margin-left: -0.16rem;
+}
+.temai .list .item .item-q .item-q2{
+  color: #FE9900;
+  font-size: 0.30rem;
+}
+.temai .list .item .item-q .item-q2 span{
+  font-size: 0.2rem;
+}
+.temai .list .item .item-q .item-q2 i{
+  color: #ccc;
+  font-size: 0.24rem;
 }
