@@ -1,0 +1,25 @@
+body{
+    background-color: #EDF1F2;
+}
+.header{
+    height: 0.88rem;
+    line-height: 0.88rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #1448AE;
+}
+.header div{
+    display: flex;
+    font-size: 0.32rem;
+    font-weight:600;
+    color: #FFFFFF;
+}
+.header div p:first-child{
+    margin-left: 0.3rem;
+    font-size: 0.5rem;
+}
+.choice{
+    height: 2rem;
+}
