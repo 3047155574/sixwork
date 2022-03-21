@@ -1,0 +1,167 @@
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+.clearfix:after {
+	content: "";
+	height: 0;
+	display: block;
+	visibility: hidden;
+	clear: both;
+}
+/* 头部搜索部分 */
+
+.head{
+    width: 100%;
+    height: 2.5rem;
+    background:#1448AE ;
+    color: white;
+}
+.top{
+    height: 1.2rem;
+    line-height: 1.2rem;
+    position: relative;
+}
+.head p{
+    text-align: center;
+    font-size: 0.5rem;
+}
+.top span{
+    position: absolute;
+    left: 0.3rem;
+    top: 0;
+}
+.search{
+    height: 1rem;
+    line-height: 1rem;
+}
+.search input{
+    width: 80%;
+    height: 0.6rem;
+    margin: 0 10%;
+    background: #1448AE;
+    border: 1px solid whitesmoke;
+    
+    color: white;
+}
+/* 中心tab切换内容 */
+.center{
+    padding: 0.2rem;
+}
+.container{
+    width: 1.3rem;
+   /* height: 16rem; */
+   background: gainsboro;
+   
+}
+.list{
+    width: 1.3rem;
+    height: 2rem;
+}
+.list-item{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 5.5rem;
+    /* height: 16rem; */
+    text-align: center;
+    display: none;
+}
+.list-item:first-child{
+    display: block;
+}
+.active{
+    background: white;
+    
+}
+.hot{
+    width: 1.3rem;
+    height: 1.5rem;
+}
+.hot img{
+    width: 1.3rem;
+    height: 1.2rem;
+    text-align: center;
+    line-height: 1.5rem;
+    
+}
+.list p{
+    
+    text-align: center;
+    font-size: 0.3rem;
+    color: #1448AE;
+}
+.inner{
+    width: 5.5rem;
+    /* height: 16rem; */
+    /* border: 1px solid red; */
+    position: relative;
+    margin-left: 0.2rem;
+}
+.city{
+    width: 2.6rem;
+    height: 3.2rem;
+    /* background: #1448AE; */
+    margin-right: 0.1rem;
+    margin-bottom: 0.4rem;
+    border: 1px solid gainsboro;
+}
+.citys{
+    width: 2.6rem;
+    height: 2.6rem;
+}
+.citys img{
+    width: 2.6rem;
+    height: 2.6rem;
+}
+.city p{
+    text-align: center;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    font-size: 0.36rem;
+    font-weight: 600;
+}
+
+
+
+
+/* 底部固定部分 */
+.foot{
+    height: 1.2rem;
+    width: 100%;
+    background: gray;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    /* border: 1px solid gray; */
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+.img{
+    height: 0.8rem;
+    line-height: 0.8rem;
+    text-align: center;
+}
+.user img{
+    width: 0.7rem;
+    height: 0.7rem;
+    text-align: center;
+}
+.user{
+    width: 25%;
+    font-size: 0.3rem;
+    text-align: center;
+} 
+.co{
+    color: gray;
+}
