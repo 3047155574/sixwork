@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "748202",
+      "name": "三个点点",
+      "font_class": "sangediandian",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "5387651",
+      "name": "分享",
+      "font_class": "fenxiang",
+      "unicode": "eb24",
+      "unicode_decimal": 60196
+    },
+    {
+      "icon_id": "21435117",
+      "name": "左箭头",
+      "font_class": "zuojiantou",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    }
+  ]
+}
