@@ -109,47 +109,47 @@
   font-size: 0.24rem;
 }
 /* 底部 */
-.foot{
-    width: 100%;
-    margin-top: 0.2rem;
-    background-color: #EEEEEE;
-    position: fixed;
-    bottom: 0;
-  }
-  .foot .foot-ul{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .foot .foot-li .p1{
-    color: #1448AE;
-  }
-  .foot .foot-li p{
-    text-align: center;
-    color: #969696;
-  }
-  .foot .foot-li .foot-img1{
-    background: url('../img/kui-img/首页img/sprites.png') no-repeat -553px -251px;
-    width: 37px;
-	height: 50px;
-    margin-left: 0.2rem;
-    transform: scale(0.6)
-  }
-  .foot .foot-li .foot-img2{
-      background: url('../img/kui-img/首页img/sprites.png') no-repeat -130px -97px;
-      width: 48px;
-      height: 49px;
-    transform: scale(0.6)
-  }
-  .foot .foot-li .foot-img3{
-      background: url('../img/kui-img/首页img/sprites.png') no-repeat -210px -99px;
-      width: 53px;
-      height: 50px;
-    transform: scale(0.6)
-  }
-  .foot .foot-li .foot-img4{
-      background: url('../img/kui-img/首页img/sprites.png') no-repeat -294px -97px;
-      width: 50px;
-      height: 50px;
-    transform: scale(0.6)
-  }
+.foot {
+  width: 100%;
+  margin-top: 0.2rem;
+  background-color: #eeeeee;
+  position: fixed;
+  bottom: 0;
+}
+.foot .foot-ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.foot .foot-li .p1 {
+  color: #1448ae;
+}
+.foot .foot-li p {
+  text-align: center;
+  color: #969696;
+}
+.foot .foot-li .foot-img1 {
+  background: url("../img/kui-img/首页img/sprites.png") no-repeat -553px -251px;
+  width: 37px;
+  height: 50px;
+  margin-left: 0.2rem;
+  transform: scale(0.6);
+}
+.foot .foot-li .foot-img2 {
+  background: url("../img/kui-img/首页img/sprites.png") no-repeat -130px -97px;
+  width: 48px;
+  height: 49px;
+  transform: scale(0.6);
+}
+.foot .foot-li .foot-img3 {
+  background: url("../img/kui-img/首页img/sprites.png") no-repeat -210px -99px;
+  width: 53px;
+  height: 50px;
+  transform: scale(0.6);
+}
+.foot .foot-li .foot-img4 {
+  background: url("../img/kui-img/首页img/sprites.png") no-repeat -294px -97px;
+  width: 50px;
+  height: 50px;
+  transform: scale(0.6);
+}
