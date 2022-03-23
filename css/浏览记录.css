@@ -1,9 +1,8 @@
 .header{
     width: 100%;
     height: 0.88rem;
-<<<<<<< HEAD
     background-color: #1448AE;
-    display: flex;
+    display: flex; 
     align-items: center;
     justify-content: space-around;
     color: whitesmoke;
@@ -19,10 +18,8 @@
 }
 .content{
     height: 5.7rem;
-=======
->>>>>>> origin/yang
-    background-color: #1448AE;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     color: whitesmoke;
@@ -37,9 +34,9 @@
     font-size: 0.30rem;
 }
 /* .content{
-    height: 5.7rem; */
-    /* background-color: #1448AE; */
-    /* display: flex;
+    height: 5.7rem; 
+    background-color: #1448AE;
+    display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
@@ -47,7 +44,7 @@
     position: fixed;
     top: 0;
     left: 0;   
-} */
+}  */
 .header_left{ 
     margin-right: 1rem;
     font-size:0.30rem ;
@@ -60,9 +57,8 @@
     font-size: 0.30rem;
 }
 .content{
-    margin-top: 0.88rem;
+    /* margin-top: 0.88rem; */
     margin-bottom: 1rem;
-    /* height: 5.7rem;  */
 }
 .content h5{
     margin-left: 0.25rem;
