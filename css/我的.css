@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header .text img {
+  width: 100%;
+  height: 100%;
+}
+.header .te-concent {
+  height: 2.5rem;
+  margin-top: -0.085rem;
+  background-color: #155cb6;
+}
+.header .te-concent .te-img {
+  margin-top: 0.1rem;
+  margin-left: 0.2rem;
+  background: url("../img/kui-img/首页img/sprites.png") no-repeat -146px -33px;
+  width: 18px;
+  height: 33px;
+  transform: scale(0.6);
+}
+.header .te-concent {
+  display: flex;
+}
+.header .te-concent p {
+  margin: 0.2rem auto;
+  color: #fff;
+  font-size: 0.36rem;
+}
+.header .te-bottem {
+  height: 4rem;
+  background-color: #edf1f4;
+  position: relative;
+}
+.header .te-bottem img {
+  width: 2.06rem;
+  position: absolute;
+  left: 50%;
+  margin-left: -1.03rem;
+  top: -1.02rem;
+}
+.header .te-bottem h1 {
+  height: 0.2rem;
+  line-height: 2.5rem;
+  text-align: center;
+  color: #8c9297;
+  font-size: 0.4rem;
+}
+.header .te-bottem h2 {
+  height: 0.2rem;
+  line-height: 3.2rem;
+  text-align: center;
+  color: #8c9297;
+  font-size: 0.3rem;
+}
+.header .hj{
+    height: 2rem;
+}
+.header .hjj{
+    display: flex;
+    justify-content: space-evenly;
+    color: #63686F;
+}
+.header .hjj i{
+    font-size: 0.58rem;
+}
+.header .hjj .p{
+    text-align: center;
+}
+.header .hjj .spa{
+    color: #63686F;
+    text-align: center;
+}
+.header .hjj .hj11{
+    height: 1.08rem;
+    border: 0.02rem dashed #63686F;
+}
+
+/* 四横图 */
+.siheng .siheng-ul{
+    display: flex;
+    justify-content: space-around;
+}
+.siheng .siheng-ul .siheng-li .siheng-img1{
+    background: url('../img/kui-img/首页img/sprites.png') no-repeat -43px -707px;
+	width: 66px;
+	height: 84px;
+    transform: scale(0.6);
+}
+.siheng .siheng-ul .siheng-li p{
+    text-align: center;
+    color: #75797F;
+}
+.siheng .siheng-ul .siheng-li .siheng-img2{
+    background: url('../img/kui-img/首页img/sprites.png') no-repeat -157px -707px;
+	width: 66px;
+	height: 84px;
+    transform: scale(0.6);
+}
+.siheng .siheng-ul .siheng-li .siheng-img3{
+    background: url('../img/kui-img/首页img/sprites.png') no-repeat -267px -707px;
+	width: 76px;
+	height: 84px;
+    transform: scale(0.6);
+}
+.siheng .siheng-ul .siheng-li .siheng-img4{
+    background: url('../img/kui-img/首页img/sprites.png') no-repeat -383px -707px;
+	width: 72px;
+	height: 84px;
+    transform: scale(0.6);
+}
+/* 四纵图 */
+.sizong{
+    width: 90%;
+    margin: 0.4rem auto;
+    padding-bottom:1.2rem ;
+}
+.sizong .sz-a p{
+    color: #797C82;
+}
+.sizong .sz-a .sz-img1{
+    background: url('../img/kui-img/首页img/sprites.png') no-repeat -43px -835px;
+	width: 63px;
+	height: 63px;
+    transform: scale(0.6);
+}
+.sizong .sz-a .sz-img2{
+    background: url('../img/kui-img/首页img/sprites.png') no-repeat -157px -835px;
+	width: 63px;
+	height: 63px;
+    transform: scale(0.6);
+}
+.sizong .sz-a .sz-img3{
+    background: url('../img/kui-img/首页img/sprites.png') no-repeat -271px -835px;;
+	width: 63px;
+	height: 63px;
+    transform: scale(0.6);
+}
+.sizong .sz-a .sz-img4{
+    background: url('../img/kui-img/首页img/sprites.png') no-repeat -385px -835px;
+	width: 63px;
+	height: 63px;
+    transform: scale(0.6);
+}
+.sizong .sz-b{
+    background: url('../img/kui-img/首页img/sprites.png') no-repeat -189px -34px;
+	width: 18px;
+	height: 33px;
+    transform: scale(0.6);
+}
+.sizong .sizong-a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sizong .sz-a{
+    display: flex;
+    align-items: center;
+}
+
+/* 底部 */
+.foot{
+    width: 100%;
+    margin-top: 0.2rem;
+    background-color: #EEEEEE;
+    position: fixed;
+    bottom: 0;
+  }
+  .foot .foot-ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .foot .foot-li .p1{
+    color: #1448AE;
+  }
+  .foot .foot-li p{
+    text-align: center;
+    color: #969696;
+  }
+  .foot .foot-li .foot-img1{
+    background: url('../img/kui-img/首页img/sprites.png') no-repeat -44px -98px;
+      width: 54px;
+      height: 47px;
+    transform: scale(0.6)
+  }
+  .foot .foot-li .foot-img2{
+      background: url('../img/kui-img/首页img/sprites.png') no-repeat -130px -97px;
+      width: 48px;
+      height: 49px;
+    transform: scale(0.6)
+  }
+  .foot .foot-li .foot-img3{
+      background: url('../img/kui-img/首页img/sprites.png') no-repeat -210px -99px;
+      width: 53px;
+      height: 50px;
+    transform: scale(0.6)
+  }
+  .foot .foot-li .foot-img4{
+      background: url('../img/kui-img/首页img/sprites.png') no-repeat -293px -174px;
+      width: 50px;
+      height: 50px;
+    transform: scale(0.6)
+  }

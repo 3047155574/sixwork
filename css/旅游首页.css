@@ -1,0 +1,155 @@
+/* 头部 */
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  width: 100%;
+  height: 5.2rem;
+  overflow: hidden;
+}
+.header img {
+  width: 100%;
+}
+/* 轮播圆点 */
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-container-horizontal > .swiper-pagination-bullets {
+  bottom: 8.4rem;
+  width: 100%;
+  position: absolute;
+}
+/* 四小图标 */
+.sixiao {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.sixiao img {
+  width: 90%;
+}
+.sizi {
+  margin-top: 0.2rem;
+  display: flex;
+  justify-content: space-around;
+}
+/* 澳大 */
+.aod {
+  margin-top: 0.2rem;
+}
+.aod .aod-ul {
+  display: flex;
+}
+.aod ul li {
+  border: 0.08rem solid #ccc;
+}
+.aod ul li:nth-child(2) {
+  border-left: none;
+}
+.aod .aod-li1 img {
+  width: 100%;
+  height: 100%;
+}
+.aod .aod-li2 img {
+  width: 100%;
+  height: 100%;
+}
+.aod ul:nth-child(2) li {
+  border-top: none;
+}
+
+/* 世大-我走 */
+.sw {
+  width: 90%;
+  margin: 0 auto;
+}
+.sw img {
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+  width: 4rem;
+}
+/* 飞机下 */
+.temai {
+  padding-bottom: 1.4rem;
+}
+
+.temai .list {
+  display: flex;
+  justify-content: space-evenly;
+}
+.temai .list .item {
+  border: #ccc 0.02rem solid;
+}
+.temai .list .item p {
+  text-align: center;
+  font-weight: 600;
+}
+.temai .list .item img {
+  width: 3.42rem;
+}
+.temai .list .item .item-q {
+  margin-top: 0.1rem;
+  display: flex;
+  justify-content: space-around;
+}
+.temai .list .item .item-q .item-q1 {
+  font-size: 0.27rem;
+  color: #ccc;
+  margin-left: -0.16rem;
+}
+.temai .list .item .item-q .item-q2 {
+  color: #fe9900;
+  font-size: 0.3rem;
+}
+.temai .list .item .item-q .item-q2 span {
+  font-size: 0.2rem;
+}
+.temai .list .item .item-q .item-q2 i {
+  color: #ccc;
+  font-size: 0.24rem;
+}
+/* 底部 */
+.foot {
+  width: 100%;
+  margin-top: 0.2rem;
+  background-color: #eeeeee;
+  position: fixed;
+  bottom: 0;
+}
+.foot .foot-ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.foot .foot-li .p1 {
+  color: #1448ae;
+}
+.foot .foot-li p {
+  text-align: center;
+  color: #969696;
+}
+.foot .foot-li .foot-img1 {
+  background: url("../img/kui-img/首页img/sprites.png") no-repeat -553px -251px;
+  width: 37px;
+  height: 50px;
+  margin-left: 0.2rem;
+  transform: scale(0.6);
+}
+.foot .foot-li .foot-img2 {
+  background: url("../img/kui-img/首页img/sprites.png") no-repeat -130px -97px;
+  width: 48px;
+  height: 49px;
+  transform: scale(0.6);
+}
+.foot .foot-li .foot-img3 {
+  background: url("../img/kui-img/首页img/sprites.png") no-repeat -210px -99px;
+  width: 53px;
+  height: 50px;
+  transform: scale(0.6);
+}
+.foot .foot-li .foot-img4 {
+  background: url("../img/kui-img/首页img/sprites.png") no-repeat -294px -97px;
+  width: 50px;
+  height: 50px;
+  transform: scale(0.6);
+}
