@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7988521",
+      "name": "实-圈-实心点",
+      "font_class": "shi-quan-shixindian",
+      "unicode": "e6b7",
+      "unicode_decimal": 59063
+    }
+  ]
+}

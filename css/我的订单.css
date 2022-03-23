@@ -65,7 +65,8 @@ ul,li{
 .banner{
     width: 7rem;
     height: 10rem;
-    margin-left: .25rem;
+    /* margin-left: .25rem; */
+    margin: 0 auto;
     margin-top: .3rem;
     /* background-color: rgb(160, 21, 21); */
 }

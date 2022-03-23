@@ -245,7 +245,8 @@ ul,li{
 /* 详情介绍结束 */
 
 /* tab开始 */
-
+ 
+/* tab第一个页面 */
 .tab{
     width: 100%;
     height: 1.02rem;
@@ -271,18 +272,8 @@ ul,li{
     /* display: none; */
     background-color: #6f9abe;
 }
-.banner2{
-    width: 100%;
-    height: 3rem;
-    display: none;
-    background-color: rgb(105, 30, 155);
-}
-.banner3{
-    width: 100%;
-    height: 3rem;
-    display: none;
-    background-color: rgb(30, 155, 82);
-}
+
+
 
 
 
@@ -412,4 +403,125 @@ ul,li{
     text-align: center;
     border-left: 1px solid #dcdcdc;
     border-right: 1px solid #dcdcdc;
+}
+
+
+
+/* tab第二个页面 */
+.banner2{
+    width: 100%;
+    height: 14.6rem;
+    display: none;
+    
+}
+.banner2-items{
+    width: 5.8rem;
+    height: 14.8rem;
+    margin: 0 auto;
+    /* background-color: rgb(105, 30, 155); */
+    margin-top: .2rem;
+    position: relative;
+}
+.banner2-items .gg{
+    width: .76rem;
+    height: .35rem;
+    position: absolute;
+    top: .2rem;
+    left: -0.8rem;
+}
+.tab-b{
+	margin-left: .1rem;
+    border-left: 1px dashed #3399cc;
+}
+.tab-b1{
+	color: #3399cc;
+    margin-left: -.16rem;
+}
+.tab-b2{
+	font-family: 宋体;
+    color: #666;
+    display: inline-block;
+    font-weight: 900;
+    font-size: .24rem;
+    margin-top: .2rem;
+}
+.tab-b3{
+	font-family: 宋体;
+    display: inline-block;
+    padding-left: 22px;
+    font-weight: 900;
+}
+.tab-bb2{
+	display: inline-block;
+    width: .8rem;
+    color: #666;
+    font-size: .24rem;
+    text-align: left;
+    font-weight: 900;
+}
+.tab-bb1{
+	color: #3399cc;
+    margin-left: .1rem;
+    /* margin-top: .2rem; */
+    border-left: 1px dashed #3399cc;
+}
+.tab-b2 span{
+	padding: 1px;
+    border: 1px solid #eeeeee;
+    font-weight: 100;
+    font-size: 12px;
+    color: #999999;
+}
+.tab-b4{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: .4rem;
+    margin-top: .2rem;
+}
+.tab-b4 img{
+    width: 2.3rem;
+    height: 2rem;
+    margin-left: .1rem;
+    margin-top: .1rem;
+}
+
+/* tab第三个页面  */
+
+.banner3{
+    width: 100%;
+    margin-top: .5rem;
+    height: 16.5rem;
+    display: none;
+    /* background-color: rgb(30, 155, 82); */
+}
+.zt{
+    width: 6.1rem;
+    height: 16.5rem;
+    /* background-color: rgb(182, 22, 22); */
+    margin: 0 auto;
+    position: relative;
+}
+.ccc{
+    width: .39rem;
+    height: 0.41rem;
+    position: absolute;
+    top: 0rem;
+    left: -.5rem;
+}
+.zt div{
+    font-size: .28rem;
+    letter-spacing:.01rem;
+    font-weight: 500;
+
+}
+.zt h2{
+    font-size: .3rem;
+    font-weight: 900;
+    color: #1ab2db;
+}
+.zt p{
+    font-size: .28rem;
+    letter-spacing:.01rem;
+    font-weight: 500;
+
 }
