@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../font_wkpy5qngryl/demo.css">
     <link rel="stylesheet" href="../font_wkpy5qngryl/iconfont.css">
     <script src="../js/rem.js"></script>
+    <script src="../js/jquery-3.6.0.js"></script>
 </head>
 <body>
     <div class="nav">
@@ -20,13 +21,13 @@
        <div class="section">
            <div class="sec1">
             <span>登录名</span>
-            <input type="text" name="" placeholder="手机号/用户名/邮箱">
-            <span class="iconfont icon-x"></span>
+            <input id="m1" type="text" name="" placeholder="手机号/用户名/邮箱">
+            <span class="iconfont icon-x n1"></span>
            </div>
            <div class="sec2">
             <span>密码</span>
             <input type="text" name="" placeholder="登录密码">
-            <span class="iconfont icon-denglu-xiaoyanjing"></span>
+            <span class="iconfont icon-denglu-xiaoyanjing "></span>
            </div>
            <div class="sec3">登录</div>
            <div class="sec4"><span>登录遇到问题?</span><span>境外手机登录</span></div>
@@ -41,4 +42,12 @@
     </div>
     
 </body>
+<script>
+    $('.n1').click(function () {
+        $('#m1').val('')
+    })
+    $('.n2').click(function () {
+        $('#m2').val('')
+    })
+</script>
 </html>

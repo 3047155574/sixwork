@@ -56,8 +56,9 @@ ul,li{
 .sec2 input{
     border:none;
     outline:medium;
-}
+} 
 .fang{
+    width: 1.6rem !important;
 	background: #ccc;
 	padding: 0.06rem 0.2rem;
 	font-size: 0.24rem;
@@ -75,7 +76,7 @@ ul,li{
 }
 .sec3 input{
 	margin-left: 0.95rem;
-	width: 2.9rem;
+	width: 1.95rem;
     border:none;
     outline:medium;
 }
@@ -88,6 +89,10 @@ ul,li{
     align-items: center;
     border-bottom: 1px solid #cccccc;
 
+}
+.sss{
+	color: #1448ae;
+	font-weight: bold;
 }
 .sec4 input{
 	margin-left: 0.65rem;
@@ -134,4 +139,14 @@ ul,li{
 	display: flex;
 	justify-content: flex-end;
 	margin-top: 0.15rem;
+}
+.ffff{
+    background: red;
+}
+.fang2{
+
+	background: #ccc;
+	padding: 0.1rem 0.32rem;
+	font-size: 0.24rem;
+	color: white;
 }
