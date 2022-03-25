@@ -119,13 +119,15 @@
 .foot .foot-ul {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+}
+.foot .foot-li{
+  text-align: center;
 }
 .foot .foot-li .p1 {
   color: #1448ae;
+  text-align: center;
 }
 .foot .foot-li p {
-  text-align: center;
   color: #969696;
 }
 .foot .foot-li .foot-img1 {
