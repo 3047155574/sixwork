@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/日历.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../js/Simple-Calendar-gh-pages20160826/stylesheets/simple-calendar.css">
+    <script src="../js/rem.js"></script>
+    <script src="../js/Simple-Calendar-gh-pages20160826/javascripts/simple-calendar.js"></script>
+</head>
+<body>
+    <!-- 标题 -->
+    <div class="choose">
+        <div class="top">
+            <span><</span>
+            <p>选择目的地</p>
+        </div>
+    </div>
+    <!-- 日历插件 -->
+    <div class="date">
+        <div id='container'></div>
+    </div>
+
+    <!-- 选择部分 -->
+    <div class="people">
+        <div class="po clearfix">
+            <p class="fl">成人 <span>￥3159元</span></p>
+            <div class="shu fr">
+                <div>-</div>
+                <div>1</div>
+                <div>+</div>
+
+            </div>
+        </div>
+        <div class="po clearfix">
+            <p class="fl">儿童</p>
+            <div class="shu fr">
+                <div>-</div>
+                <div>1</div>
+                <div>+</div>
+
+            </div>
+        </div>
+        <div class="po clearfix">
+            <input type="checkbox" name="" id="">
+            携带幼儿   0-2岁
+        </div>
+        <div class="po lest">
+            最少1人起订，年龄2—12周岁，不占床,不含早，只含当地的正餐半餐、车位以及导服,其他需要自理。成人+儿童最多支持9人，
+            <span>*以上价格均为起价</span>
+
+        </div>
+        <div class="all clearfix">
+            <div class="price fl">
+                总价：￥6381 元    明细 <
+            </div>
+            <div class="next fr">
+                <span>下一步</span>
+                选择资源
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var myCalendar = new SimpleCalendar('#container');
+    </script>
+</body>
+</html>
