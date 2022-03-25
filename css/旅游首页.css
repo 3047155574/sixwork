@@ -119,6 +119,7 @@
 .foot .foot-ul {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 .foot .foot-li{
   text-align: center;
