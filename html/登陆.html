@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,36 +12,43 @@
     <script src="../js/rem.js"></script>
     <script src="../js/jquery-3.6.0.js"></script>
 </head>
+
 <body>
     <div class="nav">
-       <div class="nav-l">
-        <div class="nav-l1"><span class="iconfont icon-zuojiantou"></span></div>
-        <div class="nav-z"><span>登陆</span></div>
-        <div class="nav-r"><span class="se">注册</span></div>
-       </div>
-       <div class="section">
-           <div class="sec1">
-            <span>登录名</span>
-            <input id="m1" type="text" name="" placeholder="手机号/用户名/邮箱">
-            <span class="iconfont icon-x n1"></span>
-           </div>
-           <div class="sec2">
-            <span>密码</span>
-            <input type="password" name="" placeholder="登录密码">
-            <span class="iconfont icon-denglu-xiaoyanjing "></span>
-           </div>
-           <div class="sec3">登录</div>
-           <div class="sec4"><span>登录遇到问题?</span><span>境外手机登录</span></div>
-           <div class="sec5">
-            <span class="iconfont icon-weixin"></span>
-            <span class="iconfont icon-qq"></span>
-            <span class="iconfont icon-zhifubao"></span>
-            <span class="iconfont icon-weibo"></span>
-            <span class="iconfont icon-baidu"></span>
-           </div>
-       </div>
+        <div class="nav-l">
+            <div class="nav-l1"><span class="iconfont icon-zuojiantou"></span></div>
+            <div class="nav-z"><span>登陆</span></div>
+            <div class="nav-r"><span class="se">注册</span></div>
+        </div>
+        <div class="section fd">
+            <div class="sec1">
+                <span>登录名</span>
+                <input id="m1" type="text" name="" placeholder="手机号/用户名/邮箱">
+                <span class="iconfont icon-x n1"></span>
+                <div class="zj">
+                    手机号/用户名/邮箱 不能为空
+                </div>
+            </div>
+            <div class="sec2 fd">
+                <span>密码</span>
+                <input id="nn1" type="password" name="" placeholder="登录密码">
+                <span class="iconfont icon-denglu-xiaoyanjing "></span>
+                <div class="zj1">
+                    密码不能为空
+                </div>
+            </div>
+            <div class="sec3">登录</div>
+            <div class="sec4"><span>登录遇到问题?</span><span>境外手机登录</span></div>
+            <div class="sec5">
+                <span class="iconfont icon-weixin"></span>
+                <span class="iconfont icon-qq"></span>
+                <span class="iconfont icon-zhifubao"></span>
+                <span class="iconfont icon-weibo"></span>
+                <span class="iconfont icon-baidu"></span>
+            </div>
+        </div>
     </div>
-    
+
 </body>
 <script>
     $('.n1').click(function () {
@@ -49,12 +57,30 @@
     $('.n2').click(function () {
         $('#m2').val('')
     })
-    $('.sec3').click(function(){
-            if ($('.password').val() == "") {
-                alert('密码不能为空')
-            } else {
-                alert("密码错误")
-            }
-        })
+    $('.sec3').click(function () {
+        if ($('#m1').val() == "") {
+            $('.zj').show()
+        } else {
+            $('.zj').hide()
+        }
+
+    })
+    $('.sec3').click(function () {
+        if ($('#nn1').val() == "") {
+            $('.zj1').show()
+        } else {
+            $('.zj1').hide()
+        }
+
+    })
+    $('.sec3').click(function () {
+        if ($('#m1').val() == "" || $('#nn1').val() == "") {
+            alert('登陆失败')
+        } else {
+            alert('登陆成功')
+        }
+
+    })
 </script>
+
 </html>

@@ -123,3 +123,27 @@ ul,li{
     color: #5f76d4;
     font-size: 0.7rem !important;
 }
+.fd{
+    position: relative;
+}
+.zj{
+    width: 60%;
+    padding: 0 0.2rem;
+	position: absolute;
+    background: #ccc;
+	top: 0.64rem;
+	left: 8%;
+    color: red;
+    font-size: 0.24rem;
+    display: none;
+}
+.zj1{
+    width: 60%;
+    padding: 0 0.2rem;
+	position: absolute;
+    background: #ccc;
+	top: 0.64rem;
+    color: red;
+    font-size: 0.24rem;
+    display: none;
+}

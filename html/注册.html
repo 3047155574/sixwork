@@ -26,22 +26,30 @@
             <span class="pl">中国大陆86</span>
         </div>
     </div>
-    <div class="sec2">
+    <div class="sec2 fd">
         <span>手机号</span>
         <input id="m1" type="text" name="" placeholder="常用手机号" oninput="value=value.replace(/[^\d]/g,'')">
         <span class="iconfont icon-x n1"></span>
+        <div class="zj">
+            手机号不能为空,手机号错误
+        </div>
     </div>
-    <div class="sec3">
+    <div class="sec3 fd">
         <span>验证码</span>
         <input class="num" type="text" name="" placeholder="短信验证码">
         <input class="fang" type="button" id="btn" value="获取验证码" />
-        <!-- <span class="fang">获取验证码</span> -->
+        <div class="zj1">
+            验证码错误
+        </div>
     </div>
-    <div class="sec4">
+    <div class="sec4 fd">
         <span>设置密码</span>
         <input id="m2" type="password" name="" placeholder="6~12位大小 写字母、数字">
         <span class="iconfont icon-x n2"></span>
         <span class="iconfont icon-denglu-xiaoyanjing y1" onclick='_password()'></span>
+        <div class="zj2">
+            密码格式错误
+        </div>
     </div>
     <div class="sec5">注册</div>
     <div class="dl">
@@ -77,76 +85,63 @@
     $('.y1').click(function () {
         $('#m2').html.type = 'text'
     })
-    
-    function _password(hid,pid){
-        var _hid = $("#"+hid);
-        var _pid = $("#"+pid);
-        _hid.focus(function(){
-            var _hval = $.trim($(this).val());
-            if(_hval != "密码") return;
-            $(this).css("display","none");
-            _pid.css("display","block").val("").focus();
-        });
-        _pid.blur(function(){
-            var _hval = $.trim($(this).val());
-            if(_hval != "") return;
-            $(this).css("display","none");
-            _hid.css("display","block").val("密码");
-        })     
-    }
-    _password('text','password')
+    $('.sec5').click(function () {
+        var phone = $("#m1").val();
+        // console.log($(".ipone").val())
+        var flag = false;
+        var message = "";
+        var myreg = /^(((13[0-9]{1})|(14[0-9]{1})|(17[0]{1})|(15[0-3]{1})|(15[5-9]{1})|(18[0-9]{1}))+\d{8})$/;
+        if ($("#m1").val() == "") {
+            $('.zj').show()
+        } else if (phone.length != 11) {
+            $('.zj').show()
+        } else if (phone.length == 11) {
+            $('.zj').hide()
+        }
+        if (!flag) {
+            //提示错误效果
+
+        } else {
+            //提示正确效果
+
+        }
+        return flag;
+    })
+
+    $('.sec5').click(function () {
+        if ($('.num').val() == "") {
+            $('.zj1').show()
+        } else {
+            $('.zj1').hide()
+        }
+
+    })
 
 
-    $('.sec5').click(function(){
-            var phone = $("#m1").val();
-            // console.log($(".ipone").val())
-            var flag = false;
-            var message = "";
-            var myreg = /^(((13[0-9]{1})|(14[0-9]{1})|(17[0]{1})|(15[0-3]{1})|(15[5-9]{1})|(18[0-9]{1}))+\d{8})$/;    
-            if($("#m1").val() == ""){
-                alert("手机号码不能为空！");
-            }else if(phone.length ==11){
-                alert("手机号码正确！");
-            }else if(!myreg.test(phone)){
-                alert("请输入有效的手机号码！")
-            // }else{
-            //     flag = true;
-            }else if ($("#m1").val() != "") {
-                alert("请输入有效的手机号码！")
-            }
-            if(!flag){
-                //提示错误效果
-                
-            }else{
-                //提示正确效果
-                
-            }
-            return flag;
-        })
-        $('.sec5').click(function(){
-            num =parseInt($('.num').val())
-            Number = parseInt(Math.random()*1000000)
-            if ($('.num').val() == "") {
-                alert('验证码不能为空')
-            } else {
-                if (Number = $('.num').val().replace(/\ +/g,"")) {
-                    alert('验证码错误')
-                } else {
-                    alert('验证码错误')
-                }
-            }
-        })
-        $('.sec5').click(function(){
-            if ($('.password').val() == "") {
-                alert('密码不能为空')
-            } else {
-                alert("密码错误")
-            }
-        })
+    $('.sec5').click(function () {
+        var phone = $("#m2").val();
+        // console.log($(".ipone").val())
+        var flag = false;
+        var message = "";
+        var myreg = /^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{6,12}$/;
+        if ($("#m2").val() == "") {
+            $('.zj2').show()
+        } else if (phone.length <= 6 || phone.length >= 12) {
+            $('.zj2').show()
+        } else if (12 >= phone.length || phone.length >= 6) {
+            $('.zj2').hide()
+        }
+        if (!flag) {
+            //提示错误效果
 
+        } else {
+            //提示正确效果
 
+        }
+        return flag;
+    })
 
-
+   
 </script>
-
+<script src="../js/zhuce.js"></script>
 </html>
